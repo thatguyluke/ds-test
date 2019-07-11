@@ -1,0 +1,18 @@
+name: this hurts
+title: this really hurts
+description: Update this description
+connectionType: mongo
+allowWrite: true
+tags:
+  - label: NoSQL
+    value: category.connection.type
+  - label: Document Store
+    value: category.connection.type
+params:
+  - name: mongoUri
+    value: www.thishurts.com
+  - name: collection
+    value: --Insert Collection Name--
+  - name: filter
+    value: "{}"
+
